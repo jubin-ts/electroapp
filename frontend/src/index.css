@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gilroy:wght@600&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-poppins: Poppins;
+  --font-gilroy: Gilroy;
+
+  /* font sizes */
+  --font-size-mini: 0.94rem;
+  --font-size-base: 1rem;
+  --font-size-sm: 0.88rem;
+  --font-size-21xl: 2.5rem;
+  --font-size-xl: 1.25rem;
+  --font-size-xs: 0.75rem;
+  --font-size-17xl: 2.25rem;
+  --font-size-5xl: 1.5rem;
+
+  /* Colors */
+  --color-gray-100: #8b8b8b;
+  --color-gray-200: #292929;
+  --color-white: #fff;
+  --color-steelblue: #0088cc;
+  --color-mediumslateblue-100: #4e4feb;
+  --color-mediumslateblue-200: #404eed;
+  --color-indianred: #c35248;
+  --color-royalblue: #1877f2;
+  --color-black: #000;
+  --color-mistyrose: #e9d4d4;
+  --color-slategray: #68648e;
+  --color-dodgerblue: #068fff;
+  --color-darkslategray-100: #464954;
+  --color-darkslategray-200: #343434;
+  --color-gainsboro: #d9d9d9;
+  --color-tomato: #ff5c5c;
+  --color-springgreen: #4aff7c;
+  --color-forestgreen: #44a63b;
+  --color-firebrick: #bb2e2e;
+  --color-darkgray: #9c9c9c;
+  --color-maroon: #6d1b1b;
+  --color-brown: #b33838;
+
+  /* Gaps */
+  --gap-234xl: 15.81rem;
+
+  /* border radiuses */
+  --br-3xs: 10px;
+  --br-10xs: 3px;
+  --br-9xl: 28px;
+  --br-19xl: 38px;
+  --br-8xs: 5px;
+  --br-5xs: 8px;
+  --br-12xl: 31px;
+}
+
+a {
+    text-decoration: none;
+}
