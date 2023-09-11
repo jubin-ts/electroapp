@@ -8,7 +8,7 @@ function Header() {
             <div className='centered-content'>
                 <h1 className='slogan' > The World's First Bidding Game Platform </h1>
                 <a href='#' className='signupoffer'>
-                    SignUp now & GET FREE 10 Electra Coin
+                    Sign Up now & GET FREE 10 Electra Coins
                 </a>
                 <div className='signupbtn-container'>
                    <button className='signupbtn'> Register </button>
