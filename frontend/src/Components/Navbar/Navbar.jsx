@@ -1,13 +1,15 @@
-import React from 'react'
-import './Navbar.css'
+import { useNavigate } from 'react-router-dom';
+import React from 'react';
+import './Navbar.css';
 
 const Navbar = () => {
+  const navigate = useNavigate();
+
   return (
     <div>
-      Navbar
-
+      <button onClick={() => navigate('/login')}>login</button>
     </div>
-  )
+  );
 }
 
-export default Navbar
+export default Navbar;

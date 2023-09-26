@@ -14,8 +14,13 @@
     color: #068FFF;
     margin: auto;
     position: relative;
-    font-size:64px ;
-}
+    font-size: 64px;
+    overflow: hidden;
+  
+  }
+  
+ 
+  
 .signupbtn-container {
     text-align: center;
     
@@ -30,6 +35,7 @@
     border-color: transparent;
     font-size: 30px;
     font-family: --poppins;
+    cursor: pointer;
 
     
 }
@@ -44,5 +50,14 @@ body {
     color: #FFFFFF;
     font-size: 32px;
     font-weight: 300;
+    text-decoration: none; /* Remove the default underline */
+    transition: color 0.3s, text-decoration 0.3s; /* Add transition for smooth effect */
 }
+
+.signupoffer:hover {
+    
+    text-decoration: underline; /* Add underline on hover */
+}
+
+
 
