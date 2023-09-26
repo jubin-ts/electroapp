@@ -1,0 +1,72 @@
+/* Payments.css */
+
+.payment {
+  display:flex;
+  justify-content:center;
+  align-items:center; /* Align vertically in the center */
+  padding: 20px;
+  margin-bottom: 35%;
+  
+}
+
+.secure {
+  font-family: Gilroy;
+  font-size: 25px;
+  font-weight: 700;
+  color: #068FFF;
+  
+  
+  line-height: normal;
+}
+
+.wayto {
+  font-family: Gilroy;
+  font-size: 44px;
+  font-weight: 300;
+  color: rgba(233, 212, 212, 1);
+  color: rgba(255, 255, 255, 1);
+  line-height: normal;
+  margin-bottom: 10px;
+  
+  
+  
+}
+
+.dpbuttn {
+  background-color: rgba(78, 79, 235, 1);
+  color: white;
+  border-radius: 10px;
+  padding: 8px 15px;
+  border: none;
+  font-family: 'Poppins', sans-serif;
+  cursor: pointer;
+  /* Remove margin-top and margin-right */
+  margin-left: 5%; /* Adjust margin as needed */
+  
+}
+
+.gateway {
+  border-radius: 30px;
+  color: #fff; /* Changed the text color to white */
+  margin-left: 20px; /* Adjust margin as needed */
+}
+
+/* Add responsive styles for different screen sizes as needed */
+@media (max-width: 768px) {
+  .secure {
+    font-size: 40px;
+    font-weight: 700;
+  }
+
+  .wayto {
+    font-size: 20px;
+  }
+
+  .dpbuttn {
+    font-size: 16px;
+  }
+
+  .gateway {
+    margin-left: 10px; /* Adjust margin as needed for smaller screens */
+  }
+}

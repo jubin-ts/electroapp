@@ -1,0 +1,56 @@
+/* Navbar.css */
+.topbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(41, 41, 41, 1);
+    
+    padding: 10px 20px;
+  }
+  
+  .logo {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .maindiv {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-btn {
+    margin-left: 10px;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+  }
+  
+  .languageswitcher {
+    background-color: transparent;
+    color: white;
+  }
+  
+  /* Navbar.css */
+.loginbtn {
+  background-color: transparent;
+  color:white;
+  border-radius: 10px; /* Adjust the value for the desired curve */
+  padding: 8px 15px;
+  border: none;
+  font-family: 'Poppins', sans-serif;
+  cursor: pointer;
+  border: 1px solid rgba(78, 79, 235, 1);
+  
+}
+
+.signupbttn {
+  background-color: rgba(78, 79, 235, 1);
+  color: white;
+  border-radius: 10px; /* Adjust the value for the desired curve */
+  padding: 8px 15px;
+  border: none;
+  font-family: 'Poppins', sans-serif;
+  cursor: pointer;
+}

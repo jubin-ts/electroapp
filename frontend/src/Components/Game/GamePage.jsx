@@ -10,5 +10,5 @@ function GamePage() {
 }
 
 export default GamePage
-    GamePage
+   
     

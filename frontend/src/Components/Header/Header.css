@@ -14,6 +14,7 @@
     color: #068FFF;
     margin: auto;
     position: relative;
+<<<<<<< HEAD
     font-size: 64px;
     overflow: hidden;
   
@@ -21,6 +22,11 @@
   
  
   
+=======
+    font-size:64px ;
+    padding-top: 89px;
+}
+>>>>>>> 0c64a5d5daec3cf7379140e704cc587df0bc8dc6
 .signupbtn-container {
     text-align: center;
     
@@ -36,13 +42,20 @@
     font-size: 30px;
     font-family: --poppins;
     cursor: pointer;
+<<<<<<< HEAD
+=======
+      
+>>>>>>> 0c64a5d5daec3cf7379140e704cc587df0bc8dc6
 
     
 }
 
 body {
-    background-color: #313131;
-    background: linear-gradient(to bottom,#313131, #068FFF,)
+    background-color: #0D0D0D;
+    background: linear-gradient(to bottom,#313131, #068FFF,);
+    
+
+    
     
 }
 

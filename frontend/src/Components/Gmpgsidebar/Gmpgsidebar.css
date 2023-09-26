@@ -1,0 +1,42 @@
+/* Add these styles to your existing CSS */
+.header {
+  display: flex;
+  align-items: flex-start;
+  
+}
+
+.sidebar {
+  width: 200px; /* Set a fixed width for the sidebar */
+  background-color: #0D0D0D; /* Sidebar background color */
+  padding: 20px 10px; /* Add padding to the sidebar */
+  box-sizing: border-box;
+  
+ 
+
+}
+
+.sidebar-links {
+  display: flex;
+  flex-direction: column; /* Display links in a column */
+  align-items: flex-start; /* Align links to the left */
+  gap: 20px;
+  /* Add spacing between links */
+  
+}
+
+.sidebar-link {
+  text-decoration: none;
+  color: white;
+  display: flex; /* Display links and icons in a row */
+  align-items: center; /* Align links and icons vertically */
+  padding: 5px 15px;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  transition: border-color 0.3s, color 0.3s;
+  
+}
+
+.sidebar-link:hover {
+  border-color: #4e08e6;
+  color: rgb(204, 180, 26);
+}
