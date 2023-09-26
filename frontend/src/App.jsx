@@ -7,6 +7,7 @@ import Banner from './Components/Banner/Banner';
 import Payments from './Components/Payments/Payments';
 import Gevent from './Components/Gevent/Gevent';
 import Signup from './Components/SignUp/SignUp';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   const [messages, setMessages] = useState([]);
@@ -25,6 +26,7 @@ function App() {
       <Payments />
       <Gevent clb={callbackFunc} />
       <Signup/>
+      <Footer/>
     </>
   );
 }
