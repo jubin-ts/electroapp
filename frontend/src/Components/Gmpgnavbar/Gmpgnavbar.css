@@ -1,3 +1,5 @@
+/* Gmpgnavbar.css */
+
 .topbar {
   display: flex;
   justify-content: space-between;
@@ -12,12 +14,29 @@
 }
 
 .icons {
-  color: #E9D4D4;
   display: flex;
   gap: 10px; /* Add some space between icons */
-  
 }
 
+/* Style for the icon buttons */
+.icons button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 18px; /* Set the icon size */
+  color: #E9D4D4; /* Set the icon color */
+  transition: transform 0.2s ease-in-out; /* Add a slight transform effect on hover */
+}
+
+/* Style for the active icon button */
+.icons button.active {
+  /* background-color: rgba(78, 79, 235, 1); */
+  border-radius: 50%; /* Make the active button round */
+  color: white; /* Change the icon color when active */
+  transform: scale(1.1); /* Slightly scale up the active button on hover */
+}
+
+/* Style for the deposit button */
 .deposit {
   background-color: rgba(78, 79, 235, 1);
   color: white;
@@ -27,7 +46,6 @@
   font-family: 'Poppins', sans-serif;
   cursor: pointer;
   border: 1px solid rgba(78, 79, 235, 1);
-  
 }
 
 .nav-right {
@@ -45,7 +63,4 @@
   color: white;
   font-family: 'Poppins', sans-serif;
   cursor: pointer;
-}
-.notificationsOpen{
-  background-color: transparent;
 }

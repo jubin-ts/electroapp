@@ -1,0 +1,39 @@
+.privacy {
+    width: 100%;
+    max-width: 800px; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center the content horizontally */
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+    font-family:  'Poppins';
+  }
+  
+  .heading {
+    text-align: center;
+    font-size: 24px; /* Adjust the font size as needed */
+    margin-bottom: 20px; /* Add some space below the heading */
+    color: #333;;
+  }
+  
+  .content {
+    text-align: justify;
+    font-size: 16px; /* Adjust the font size as needed */
+    line-height: 1.5; /* Improve readability with line height */
+  }
+  
+  /* Style the h3 elements within the content */
+  .content h3 {
+    margin-top: 20px; /* Add space above each h3 heading */
+    font-size: 20px; /* Adjust the font size for h3 headings */
+  }
+  
+  /* Style the p elements within the content */
+  .content p {
+    margin-bottom: 10px; /* Add space below each paragraph */
+  }
+  
+  /* Style the list items within the content */
+  .content ul, .content ol {
+    margin-left: 20px; /* Indent lists for better readability */
+  }
+  
