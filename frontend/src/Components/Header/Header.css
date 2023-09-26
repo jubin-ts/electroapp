@@ -14,9 +14,19 @@
     color: #068FFF;
     margin: auto;
     position: relative;
+<<<<<<< HEAD
+    font-size: 64px;
+    overflow: hidden;
+  
+  }
+  
+ 
+  
+=======
     font-size:64px ;
     padding-top: 89px;
 }
+>>>>>>> 0c64a5d5daec3cf7379140e704cc587df0bc8dc6
 .signupbtn-container {
     text-align: center;
     
@@ -32,7 +42,10 @@
     font-size: 30px;
     font-family: --poppins;
     cursor: pointer;
+<<<<<<< HEAD
+=======
       
+>>>>>>> 0c64a5d5daec3cf7379140e704cc587df0bc8dc6
 
     
 }
@@ -50,5 +63,14 @@ body {
     color: #FFFFFF;
     font-size: 32px;
     font-weight: 300;
+    text-decoration: none; /* Remove the default underline */
+    transition: color 0.3s, text-decoration 0.3s; /* Add transition for smooth effect */
 }
+
+.signupoffer:hover {
+    
+    text-decoration: underline; /* Add underline on hover */
+}
+
+
 

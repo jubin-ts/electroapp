@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
@@ -72,8 +73,24 @@ import {
       
         
       ]);
+=======
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import App from './App.jsx';
+import Login from './Components/Login/Login';
+import GamePage from './Components/Game/GamePage';
+import './index.css';
+
+>>>>>>> a8b1778efe90dbabc1213f8cb9462d4707e06b5c
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <RouterProvider router={router}/>
-  </React.StrictMode>,
-)
+    <BrowserRouter>
+      <Routes>
+        <Route path='login' element={<Login />} />
+        <Route path='game' element={<GamePage />} />
+        <Route path='/' element={<App />} />
+      </Routes>
+    </BrowserRouter>
+  </React.StrictMode>
+);

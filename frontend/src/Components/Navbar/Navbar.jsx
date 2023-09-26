@@ -1,10 +1,15 @@
+
+      
+
 import React from "react";
+import { useNavigate } from 'react-router-dom';
 import "./Navbar.css";
 import img1 from "../../assets/Logo.svg";
 import { useTranslation } from 'react-i18next';
 
 function Navbar() {
   const { t, i18n } = useTranslation();
+  const navigate = useNavigate();
 
   const changeLanguage = (lng) => {
     i18n.changeLanguage(lng);
@@ -33,9 +38,11 @@ function Navbar() {
         </div>
         <div className="signupbtn_container nav-btn">
           <button className="signupbttn">{t('signup')}</button>
+          <button onClick={() => navigate('/login')}>login</button></div>
         </div>
       </div>
-    </div>
+
+    
   );
 }
 
